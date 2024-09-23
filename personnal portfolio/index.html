@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cda5f89254.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Ilef</span><br> Limem from Tunisia</h1>
+             </div>
+        </div>
+    </div>
+    <!---------------------------about-------------->
+    <div id="About">
+         <div class="container">
+            <div class="row">
+              <div class="about-col-1">
+                 <img src="images/user.png" >
+              </div>
+                    <div class="about-col-2">
+                         <h1 class="sub-title">About Me</h1>
+                            <p> My name is Ilef, I am currently in my second year at the university.<br> highly motivated and creative person also i am innovative and imaginative besides I am very keen on graphic design, programming and writing <br> I have a passion for visual arts and i enjoy creating digital content </p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link"onclick="opentab('skills')" >Skills</p>
+                                <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                                <p class="tab-links"onclick="opentab('Education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab"id="skills">
+                                <ul>
+                                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                    <li><span>Web Development</span><br>Web App Development</li>
+                                    <li><span>Degital Marketing</span><br>SEO and Email Marketing</li>
+                                    <li><span>Game Development</span><br>2D Game Development</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents"id="Experience">
+                                <ul>
+                                    <li><span>2023-current</span><br>Web Development</li>
+                                    <li><span>2023</span><br>Degital Marketing Manager</li>
+                                    <li><span>2022-current</span><br>Game Development</li>
+                                    <li><span>2021-2021</span><br>business Development</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents"id="Education">
+                                <ul>
+                                    <li><span>2022</span><br>Game Development</li>
+                                    <li><span>2021</span><br>Business Computing</li>
+                                </ul>
+                            </div>
+                    </div>
+            </div>
+         </div>
+    </div>
+    <!-------------services----------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+              <div>
+                 <i class="fa-solid fa-code"></i> 
+                 <h2>Web Development</h2>
+                 <p>I specialize in JavaScript web development<br>focusing on React.js and Next.js. My expertise includes building dynamic, responsive, and high-performance web applications using these frameworks. I excel in creating seamless user interfaces with React.js and leveraging Next.js for server-side rendering, static site generation, and optimized SEO.</p>
+                 <a href="#">Learn more</a>
+              </div>
+               <div>
+                 <i class="fa-solid fa-crop"></i>
+                 <h2>UI/UX Design</h2>
+                 <p>I enjoy UI and web design, working extensively with Figma to create visually appealing and intuitive interfaces. I am dedicated to improving my UX design skills, striving to enhance the overall user experience in every project I undertake.</p>
+                 <a href="#">Learn more</a>
+               </div>
+                <div>
+                    <i class="fa-solid fa-gamepad"></i>
+                  <h2>Game Development</h2>
+                  <p>I specialize in 2D game development and have completed several simple projects in this field. Currently, I am expanding my skills and exploring the realm of 3D game development.</p>
+                 <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-------------Portfolio----------->
+     <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                         <h3> Online shooping Web App</h3>
+                         <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                 <div class="work">
+                            <img src="images/work-2.png">
+                            <div class="layer">
+                                <h3>Plants Web Design</h3>
+                                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                           </div>
+                   </div>
+                   <div class="work">
+                          <img src="images/work-3.png">
+                          <div class="layer">
+                            <h3>Travel Agency web App</h3>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                       </div>
+                   </div>
+            </div>
+            <a href="#"class="btn">see more</a>
+        </div>
+
+     </div>
+     <!-----------------------------contact---------------->
+     <div id="contact">
+        <div class="container">
+            <div class="raw">
+             <div class="contact-left">
+             <h1 class="sub-title">contact me</h1>
+             <p><i class="fa-regular fa-paper-plane"></i>ileflm00@gmail.com</p>
+             <p><i class="fa-solid fa-phone"></i>+216 26 425 615</p>
+             <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100010241316188"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/lm.ilef"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ilef-lm-40551621b/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my cvv.pdf" download class="btn bttn 2">Download CV</a>
+             </div >
+                <form>
+                    <input type="text" name=" Name" placeholder="Your Name"required >
+                    <input type="email" name=" email" placeholder="Your email"required >
+                    <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                    <button type="submit"class="btn btn2">submit</button>
+
+                </form>
+            
+             </div>
+             </div>
+             <div class="contact-right">
+
+             </div>
+            </div>
+        </div>
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname){ 
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+                                }
+    </script>
+</body>
+</html>
